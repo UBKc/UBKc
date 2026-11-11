@@ -17,6 +17,7 @@ Computer Engineer from Türkiye, focused on **machine learning** and **computer 
 | [**License Plate Recognition & Parking System**](https://github.com/UBKc/plaka-okuma-otopark) | Detects and reads Turkish license plates, matches each car's entry and exit, and calculates parking time and fee. Compared 3 OCR engines; fast-plate-ocr read 100% of 50 real plates. | Python · YOLO · OpenCV · OCR |
 | [**Taxi-v3 Q-Learning**](https://github.com/UBKc/taxi-v3-q-learning) | A tabular Q-Learning agent for Gymnasium Taxi-v3; solves 100% of 1000 unseen test episodes in 13 steps on average. | Python · Gymnasium |
 | [**TaskFlow**](https://github.com/UBKc/taskflow) | Full-stack Kanban app with JWT auth, role-based access and drag & drop; security-tested with OWASP ZAP. | React · Node.js · PostgreSQL |
+| [**Randevu**](https://github.com/UBKc/randevu) | Appointment booking system: available-slot calculation, double-booking prevented by a PostgreSQL exclusion constraint, tested under concurrent requests. | TypeScript · Prisma · PostgreSQL |
 
 ---
 
