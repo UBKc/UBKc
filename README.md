@@ -15,8 +15,8 @@ Computer Engineer from Türkiye, focused on **machine learning** and **computer 
 | [**BioPredict – DeriTanı**](https://github.com/UBKc/biopredict-deritani) | Detection of 4 skin conditions from images (TEKNOFEST 2025 finalist). I was responsible for the AI side: dataset preparation, labeling, training and validation. | Python · YOLO · Computer Vision |
 | **Smart Recycling Bin** | Camera-based real-time waste detection; a Raspberry Pi drives servo motors to sort waste into 5 categories. | Python · YOLO · Raspberry Pi |
 | [**License Plate Recognition & Parking System**](https://github.com/UBKc/plaka-okuma-otopark) | Detects and reads Turkish license plates, matches each car's entry and exit, and calculates parking time and fee. Compared 3 OCR engines; fast-plate-ocr read 100% of 50 real plates. | Python · YOLO · OpenCV · OCR |
-| **Taxi-v3 Q-Learning** | A reinforcement learning agent that learns the optimal policy in the Gymnasium Taxi-v3 environment. | Python · Gymnasium |
-| **TaskFlow** | Full-stack Kanban task management app with authentication and a REST API. | React · Node.js · PostgreSQL |
+| [**Taxi-v3 Q-Learning**](https://github.com/UBKc/taxi-v3-q-learning) | A tabular Q-Learning agent for Gymnasium Taxi-v3; solves 100% of 1000 unseen test episodes in 13 steps on average. | Python · Gymnasium |
+| [**TaskFlow**](https://github.com/UBKc/taskflow) | Full-stack Kanban app with JWT auth, role-based access and drag & drop; security-tested with OWASP ZAP. | React · Node.js · PostgreSQL |
 
 ---
 
