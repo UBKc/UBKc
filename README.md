@@ -5,6 +5,7 @@ Computer Engineer from Türkiye, focused on **machine learning** and **computer 
 - 🎓 Graduation project: **Dermatrix**, a skin disease pre-assessment system comparing 5 deep learning models
 - 🔭 Building AI-powered systems that run outside the notebook: on mobile devices and embedded boards like Raspberry Pi
 - 🏆 TEKNOFEST 2025 finalist, **13th in Türkiye** with an AI-assisted skin condition pre-detection app
+- 💼 Computer vision intern at Ayvos (2026): people counting, pose estimation and retail video analytics
 - 🌱 Currently improving my skills in deep learning, model optimization and clean software engineering
 
 ---
@@ -14,9 +15,12 @@ Computer Engineer from Türkiye, focused on **machine learning** and **computer 
 | Project | Description | Stack |
 |---|---|---|
 | [**Dermatrix**](https://github.com/UBKc/dermatrix) | Graduation project: compared 5 deep learning models on 20,213 skin images (EfficientNetB0 best at 97.87%), validated with Friedman/Nemenyi tests, explained with Grad-CAM, and fused with a 12-question symptom survey. | TensorFlow · PyTorch · Flask |
+| [**Ayvos Internship – Retail Video Analytics**](https://github.com/UBKc/ayvos-staj-goruntu-isleme) | Computer vision internship code: people counting with tracking, pose-based standing / sitting / walking detection with duration logging, shop-window dwell time, checkout queue counting and table cleanliness monitoring. Faces are blurred for privacy. | Python · YOLOv8 · OpenCV |
 | [**BioPredict – DeriTanı**](https://github.com/UBKc/biopredict-deritani) | Detection of 4 skin conditions from images (TEKNOFEST 2025 finalist). I was responsible for the AI side: dataset preparation, labeling, training and validation. | Python · YOLO · Computer Vision |
-| [**Smart Recycling Bin**](https://github.com/UBKc/akilli-atik-ayristirma) | Raspberry Pi system that classifies waste from a camera image (Gemini API now, a custom YOLO model in progress) and sorts it into 5 bins with two servo motors. Team project, I am the team captain. | Python · Raspberry Pi · Gemini API |
+| [**Smart Recycling Bin**](https://github.com/UBKc/akilli-atik-ayristirma) | Raspberry Pi system that classifies waste from a camera image (Gemini API, or my offline model trained on TrashNet) and sorts it into 5 bins with two servo motors. Team project, I am the team captain. | Python · Raspberry Pi · Gemini API |
+| [**Waste Classification Model**](https://github.com/UBKc/atik-siniflandirma-modeli) | YOLOv8n-cls fine-tuned on TrashNet for the recycling bin: 89.97% test accuracy on 6 classes (91.56% on the bin's 5 compartments), ~9 ms per image on CPU, vs 70.45% for a HOG + SVM baseline. | Python · YOLOv8 · scikit-learn |
 | [**License Plate Recognition & Parking System**](https://github.com/UBKc/plaka-okuma-otopark) | Detects and reads Turkish license plates, matches each car's entry and exit, and calculates parking time and fee. Compared 3 OCR engines; fast-plate-ocr read 100% of 50 real plates. | Python · YOLO · OpenCV · OCR |
+| [**Genetic Algorithm for TSP**](https://github.com/UBKc/genetik-algoritma-tsp) | GA benchmarked on 4 TSPLIB instances against nearest neighbour and 2-opt; a memetic GA (GA + 2-opt) finds the known optimum of berlin52 and kroA100 in 10/10 runs. | Python · NumPy |
 | [**Taxi-v3 Q-Learning**](https://github.com/UBKc/taxi-v3-q-learning) | A tabular Q-Learning agent for Gymnasium Taxi-v3; solves 100% of 1000 unseen test episodes in 13 steps on average. | Python · Gymnasium |
 | [**TaskFlow**](https://github.com/UBKc/taskflow) | Full-stack Kanban app with JWT auth, role-based access and drag & drop; security-tested with OWASP ZAP. | React · Node.js · PostgreSQL |
 | [**Randevu**](https://github.com/UBKc/randevu) | Appointment booking system: available-slot calculation, double-booking prevented by a PostgreSQL exclusion constraint, tested under concurrent requests. | TypeScript · Prisma · PostgreSQL |
@@ -25,7 +29,7 @@ Computer Engineer from Türkiye, focused on **machine learning** and **computer 
 
 ### 🛠️ Tech Stack
 
-**AI / ML:** Python · TensorFlow · Keras · PyTorch · OpenCV · YOLO · scikit-learn
+**AI / ML:** Python · TensorFlow · Keras · PyTorch · OpenCV · YOLO · scikit-learn · Hugging Face Transformers
 **Languages:** Python · Java · C# · C · SQL · MATLAB
 **Hardware:** Raspberry Pi · Camera modules · Servo motors
 **Tools:** Git · Google Colab · VS Code · PyCharm · Android Studio · Microsoft SQL Server
