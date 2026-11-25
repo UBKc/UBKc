@@ -18,6 +18,7 @@
 | [**Ayvos Internship – Retail Video Analytics**](https://github.com/UBKc/ayvos-staj-goruntu-isleme) | Computer vision internship code: people counting with tracking, pose-based standing / sitting / walking detection with duration logging, shop-window dwell time, checkout queue counting and table cleanliness monitoring. Faces are blurred for privacy. | Python · YOLOv8 · OpenCV |
 | [**BioPredict – DeriTanı**](https://github.com/UBKc/biopredict-deritani) | Detection of 4 skin conditions from images (TEKNOFEST 2025 finalist). I was responsible for the AI side: dataset preparation, labeling, training and validation. | Python · YOLO |
 | [**License Plate Recognition & Parking System**](https://github.com/UBKc/plaka-okuma-otopark) | Detects and reads Turkish license plates, matches each car's entry and exit, and calculates parking time and fee. Compared 3 OCR engines; fast-plate-ocr read 100% of 50 real plates. | Python · YOLO · OpenCV · OCR |
+| [**Brain Tumor Detection on MRI**](https://github.com/UBKc/beyin-tumoru-tespiti) | YOLO11n trained on my own GPU with a patient-grouped split. On a held-out test set: mAP50 0.976, mAP50-95 0.708, 116 of 123 tumors found. A static INT8 ONNX version keeps accuracy at 3 MB and runs 2x faster on CPU. | YOLO11 · PyTorch · ONNX Runtime |
 
 ### ♻️ Smart Recycling Bin
 
